@@ -13,6 +13,6 @@ passwordElement.innerHTML = "Password";
 
 //show created password
 var secret_passwordElement = document.getElementById ('secret_password');
-secret_passwordElement.innerHTML = userName + lastName + favColor + '21';
+secret_passwordElement.innerHTML = userName.toLowerCase() + lastName.toLowerCase() + favColor.toLowerCase() + '21';
 
 
